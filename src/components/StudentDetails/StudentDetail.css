@@ -1,0 +1,49 @@
+.card {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 18px auto;
+}
+.card img {
+  border: 1px solid rgb(184, 184, 184);
+  padding: 10px 15px;
+  border-radius: 50%;
+  padding-top: 5px;
+  margin-right: 40px;
+  height: 100px;
+  width: 100px;
+}
+.tag-form input {
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin: 10px;
+}
+.tags {
+  padding: 5px;
+  margin: 5px;
+}
+.all-cards {
+  border: 1px solid rgb(182, 182, 182);
+  box-shadow: 1px 1px 1px #888888;
+  width: 80%;
+  margin: 20px auto;
+}
+.search-form input {
+  width: 90%;
+  margin: 10px 3%;
+  border: none;
+  border-bottom: 1px solid black;
+  height: 30px;
+  padding: 5px;
+}
+.icon {
+  font-size: 3rem !important;
+  margin-left: 100px !important;
+  cursor: pointer;
+}
+.hide {
+  height: 200px;
+  overflow-y: hidden;
+  width: 60%;
+}
